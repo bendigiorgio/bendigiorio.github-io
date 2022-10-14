@@ -161,7 +161,7 @@ const workExperiences = {
       companylogo: require("./assets/images/nikkoLogo.png"),
       date: "May 2022 – Present",
       desc: "Work as a full time contract employee"
-    },
+    }
   ]
 };
 
@@ -258,7 +258,7 @@ const achievementSection = {
     {
       title: "Japanese Language Proficiency Test (JLPT)",
       subtitle:
-        "JLPT N4",
+        "",
       image: require("./assets/images/jlptLogo.jpg"),
       imageAlt: "Japanese Language Proficeiency Test",
       footerLink: [
@@ -270,7 +270,7 @@ const achievementSection = {
 
 
 const contactInfo = {
-  title: emoji("Contact"),
+  title: "Contact",
   subtitle:
     "Get in touch!",
   email_address: "bendigiorgio@gmail.com"
