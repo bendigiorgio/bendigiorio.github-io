@@ -1,0 +1,131 @@
+{"greeting": {
+    "subTitle" : "データの深みにすごい興味を持っているデータアナリスト"
+},
+
+"skillsSection": {
+    "title":"何をする",
+    "subTitle":"A DATA ANALYST WHO REALLY WANTS TO DIVE INTO DATA",
+    "skills":[
+        "● ステーキホルダーのご協力で何をしたいか、どんな質問を聞けばいいか、考える事、",
+        "● でのウェブスクレーピングなどツールを使用し、データを集める事、",
+        "● 使える状態にクリーニングし、分析で役に立つ計算をする事、",
+        "● 分析を行って、活用できる結果を出し、意味深くて、分かりやすいビジュアルを作る事"
+      ]
+
+},
+
+"educationInfo":{
+    "schoolName": "Deakin University（ディーキン大学）オーストラリア",
+    "subHeader": "商学士号（マーケティング専攻）",
+    "duration": "2018年3月 - 2023年6月",
+    "descBullets": [
+      "大学で特にマーケティングについて本当のデータで会社の分析のプロジェクトを何回か行いました。",
+      "フランスでの留学し、リスクマネージメントやブランドマネージメントの勉強も出来ました。"
+    ]    
+},
+
+"workExperiences":{
+    "experience": [
+        {
+          "role": "アパレル店員",
+          "company": "WEGO - 博多キャナルシティ店",
+          "date": "2019年12月 – 2021年4月",
+          "desc": "パート",
+          "descBullets": [
+            "レジ",
+            "接客",
+            "在庫管理"
+          ]
+        },
+        {
+          "role": "料理長",
+          "company": "イタリアンバジル薬院店",
+          "date": "2020年11月 – 2022年4月",
+          "desc": "正社員",
+          "descBullets": [
+            "在庫管理・発注担当",
+            "会社で使う為や販売の為の農家さんからの野菜のスプレッドシートを作り、自動計算で共立を高めました。",
+            "シフト作成",
+            "新しいメニューを作成し、販売できるようにウーバーイーツや出前館などのプラットフォームの設定を行い"
+          ]
+        },
+        {
+          "role": "ホールスタッフ",
+          "company": "ホテル日航福岡",
+          "date": "2022年5月 – 現在",
+          "desc": "派遣社員"
+        }
+      ]
+},
+"bigProjects":{
+    "projects":[
+        {
+        "projectName": "マーケティングキャンペーンアナリシス",
+        "projectDesc": "Kaggleからのデータを使用し、Pythonでデータをクリーンし、色々計算しました。分析をし、Tableauでビジュアルを作成しました。",
+        "footerLink": [
+            {
+            "name": "コードを見る!"
+            },
+            {
+            "name": "ビジュアルを見る！"
+            }
+        ]
+        },
+        {
+        "projectName": "Cryptocurrency Machine Learning Model",
+        "projectDesc": "Used machine learning in Python to create a model which predicts the change in price of cryptocurrencies and can then trade upon it. Used SQLite to create and maintain a dastabase of multiple factors related to each cryptocurrency",
+        "footerLink": [
+            {
+            "name": "Check out the code!"
+            }
+        ]
+        },
+        {
+        "projectName": "Advertisement Analysis",
+        "projectDesc": "Conducted an A/B analysis for an advertisement to determine the effectiveness of an advertisement compared to its previous version",
+        "footerLink": [
+            {
+            "name": "Check it out!"
+            }
+            
+        ]
+        },
+        {
+        "projectName": "SQL",
+        "projectDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "footerLink": [
+            {
+            "name": "Visit Website"
+            }
+        ]
+        }
+    ]
+},
+
+"achievementSection" : {
+    "title": "Certifications",
+    "subtitle": "Certifications that I have achieved",
+    "achievementsCards": [
+    {
+        "title": "Google Data Analytics Professional Certificate",
+        "subtitle": "Completed Google's data analytics professional course",
+        "footerLink": [
+          {
+            "name": "View Certificate"
+          }
+        ]
+      },
+      {
+        "title": "Japanese Language Proficiency Test (JLPT)"
+
+      }
+    ]
+  },
+
+"contactInfo" : {
+    "title":"Contact",
+    "subtitle": "Get in touch!",
+    "email_address": "bendigiorgio@gmail.com"
+  }
+
+}

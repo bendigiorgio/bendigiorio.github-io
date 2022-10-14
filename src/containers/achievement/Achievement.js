@@ -2,9 +2,11 @@ import React, {useContext} from "react";
 import "./Achievement.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
+import {achievementSectionJp} from "../../portfolio_jp";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-export default function Achievement() {
+
+export function Achievement() {
   const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {
     return null;
@@ -42,6 +44,58 @@ export default function Achievement() {
                   cardInfo={{
                     title: card.title,
                     description: card.subtitle,
+                    image: card.image,
+                    imageAlt: card.imageAlt,
+                    footer: card.footerLink
+                  }}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </Fade>
+  );
+}
+
+export function AchievementJp() {
+  const {isDark} = useContext(StyleContext);
+  if (!achievementSectionJp.display) {
+    return null;
+  }
+  return (
+    <Fade bottom duration={1000} distance="20px">
+      <div className="main" id="achievements">
+        <div className="achievement-main-div">
+          <div className="achievement-header">
+            <h1
+              className={
+                isDark
+                  ? "dark-mode heading achievement-heading"
+                  : "heading achievement-heading"
+              }
+            >
+              {achievementSectionJp.title}
+            </h1>
+            <p
+              className={
+                isDark
+                  ? "dark-mode subTitle achievement-subtitle"
+                  : "subTitle achievement-subtitle"
+              }
+            >
+              {achievementSectionJp.subtitle}
+            </p>
+          </div>
+          <div className="achievement-cards-div">
+            {achievementSectionJp.achievementsCards.map((card, i) => {
+              return (
+                <AchievementCard
+                  key={i}
+                  isDark={isDark}
+                  cardInfo={{
+                    title: card.title,
+                    description: card.subtitle, 
                     image: card.image,
                     imageAlt: card.imageAlt,
                     footer: card.footerLink

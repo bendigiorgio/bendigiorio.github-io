@@ -1,0 +1,131 @@
+{"greeting": {
+    "subTitle" : "A data analyst with a passion for getting to the bottom of data"
+},
+
+"skillsSection": {
+    "title":"What I do",
+    "subTitle":"A DATA ANALYST WHO REALLY WANTS TO DIVE INTO DATA",
+    "skills":[
+        "● work with stakeholders to define what questions to ask",
+        "● source data through various means, including scraping the web using Python",
+        "● clean and process data into a workable state.",
+        "● analyse and visualise the data to provide meaningful and actionable outcomes."
+      ]
+
+},
+
+"educationInfo":{
+    "schoolName": "Deakin University",
+    "subHeader": "Bachelor of Commerce Majoring in Marketing",
+    "duration": "March 2018 - June 2023",
+    "descBullets": [
+      "With a major in marketing I have undertaken many tasks relating directly to businesses and their data",
+      "Study abroad in France with a focus on luxury brand management and risk management"
+    ]    
+},
+
+"workExperiences":{
+    "experience": [
+        {
+          "role": "Store Clerk",
+          "company": "WEGO - Japan",
+          "date": "December 2019 – April 2021",
+          "desc": "Worked as a part time employee",
+          "descBullets": [
+            "Operated the register",
+            "Greeted and guided customers to find clothing that they love",
+            "Operated inventory management systems, involving multiple stores across the country"
+          ]
+        },
+        {
+          "role": "Head Chef",
+          "company": "Italian Basil - Japan",
+          "date": "November 2020 – April 2022",
+          "desc": "Worked full time as a full time employee (Managerial)",
+          "descBullets": [
+            "Organised inventory and orders",
+            "Created internal and external spreadsheets and documents for the sale of fresh produce",
+            "Organised and and create shift rosters for staff",
+            "Developed new menu and set up the systems to sell products through delivery applications"
+          ]
+        },
+        {
+          "role": "Hall Staff",
+          "company": "Hotel Nikko Fukuoka - Japan",
+          "date": "May 2022 – Present",
+          "desc": "Work as a full time contract employee"
+        }
+      ]
+},
+"bigProjects":{
+    "projects":[
+        {
+        "projectName": "Marketing Campaign Analysis",
+        "projectDesc": "Used Python to clean and create features for a dataset from Kaggle. Used Tableau to visualise findings and display recommendations",
+        "footerLink": [
+            {
+            "name": "Check out the code!"
+            },
+            {
+            "name": "View visualisation"
+            }
+        ]
+        },
+        {
+        "projectName": "Cryptocurrency Machine Learning Model",
+        "projectDesc": "Used machine learning in Python to create a model which predicts the change in price of cryptocurrencies and can then trade upon it. Used SQLite to create and maintain a dastabase of multiple factors related to each cryptocurrency",
+        "footerLink": [
+            {
+            "name": "Check out the code!"
+            }
+        ]
+        },
+        {
+        "projectName": "Advertisement Analysis",
+        "projectDesc": "Conducted an A/B analysis for an advertisement to determine the effectiveness of an advertisement compared to its previous version",
+        "footerLink": [
+            {
+            "name": "Check it out!"
+            }
+            
+        ]
+        },
+        {
+        "projectName": "SQL",
+        "projectDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "footerLink": [
+            {
+            "name": "Visit Website"
+            }
+        ]
+        }
+    ]
+},
+
+"achievementSection" : {
+    "title": "Certifications",
+    "subtitle": "Certifications that I have achieved",
+    "achievementsCards": [
+    {
+        "title": "Google Data Analytics Professional Certificate",
+        "subtitle": "Completed Google's data analytics professional course",
+        "footerLink": [
+          {
+            "name": "View Certificate"
+          }
+        ]
+      },
+      {
+        "title": "Japanese Language Proficiency Test (JLPT)"
+
+      }
+    ]
+  },
+
+"contactInfo" : {
+    "title":"Contact",
+    "subtitle": "Get in touch!",
+    "email_address": "bendigiorgio@gmail.com"
+  }
+
+}
