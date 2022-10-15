@@ -19,6 +19,8 @@ import "./Main.scss";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom'; 
 
+// eslint-disable-next-line
+import 'swiper/swiper-bundle.min.css'
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");

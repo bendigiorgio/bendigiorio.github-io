@@ -5,6 +5,18 @@ import {bigProjectsJp} from "../../portfolio_jp";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// import required modules
+import { Pagination, Navigation } from "swiper";
+
+// Import Swiper styles
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
+import 'swiper/modules/pagination/pagination.min.css'
+
+
 export function StartupProject() {
   function openUrlInNewTab(url) {
     if (!url) {
@@ -34,16 +46,30 @@ export function StartupProject() {
           </p>
 
           <div className="projects-container">
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              slidesPerGroup={3}
+              loop={true}
+              loopFillGroupWithBlank={true}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="mySwiper"
+            >
             {bigProjects.projects.map((project, i) => {
               return (
-                <div
+                <SwiperSlide>
+                  <div
                   key={i}
                   className={
                     isDark
                       ? "dark-mode project-card project-card-dark"
                       : "project-card project-card-light"
                   }
-                >
+                  >
                   {project.image ? (
                     <div className="project-image">
                       <img
@@ -85,8 +111,10 @@ export function StartupProject() {
                     ) : null}
                   </div>
                 </div>
+                </SwiperSlide>
               );
             })}
+            </Swiper>
           </div>
         </div>
       </div>
@@ -125,14 +153,15 @@ export function StartupProjectJp() {
           <div className="projects-container">
             {bigProjectsJp.projects.map((project, i) => {
               return (
-                <div
+                <SwiperSlide>
+                  <div
                   key={i}
                   className={
                     isDark
                       ? "dark-mode project-card project-card-dark"
                       : "project-card project-card-light"
                   }
-                >
+                  >
                   {project.image ? (
                     <div className="project-image">
                       <img
@@ -174,6 +203,7 @@ export function StartupProjectJp() {
                     ) : null}
                   </div>
                 </div>
+                </SwiperSlide>
               );
             })}
           </div>
