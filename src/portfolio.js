@@ -61,9 +61,8 @@ const skillsSection = {
 
   softwareSkills: [
     {
-        skillName: "SQL",
-        fontAwesomeClassname: "fas fa-database"
-
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "Python",

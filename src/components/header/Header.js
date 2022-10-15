@@ -11,6 +11,8 @@ import {
   achievementSection
 } from "../../portfolio";
 
+
+
 export function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
@@ -57,6 +59,9 @@ export function Header() {
           )}
           <li>
             <a href="#contact">Contact Me</a>
+          </li>
+          <li>
+            <a href="/jp">JP(日本語)</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -118,6 +123,9 @@ export function HeaderJp() {
           )}
           <li>
             <a href="#contact">連絡先</a>
+          </li>
+          <li>
+            <a href="/">英語(EN)</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
