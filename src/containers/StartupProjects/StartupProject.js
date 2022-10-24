@@ -151,6 +151,19 @@ export function StartupProjectJp() {
           </p>
 
           <div className="projects-container">
+          <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              slidesPerGroup={3}
+              loop={true}
+              loopFillGroupWithBlank={true}
+              pagination={{
+                clickable: true,
+              }}
+              navigation={true}
+              modules={[Pagination, Navigation]}
+              className="mySwiper"
+            >
             {bigProjectsJp.projects.map((project, i) => {
               return (
                 <SwiperSlide>
@@ -206,6 +219,7 @@ export function StartupProjectJp() {
                 </SwiperSlide>
               );
             })}
+            </Swiper>
           </div>
         </div>
       </div>

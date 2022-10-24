@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A DATA ANALYST WHO REALLY WANTS TO DIVE INTO DATA",
+  subTitle: "FIND ACTIONABLE INSIGHTS FROM DATA",
   skills: [
     emoji(
       "● work with stakeholders to define what questions to ask"
@@ -53,7 +53,7 @@ const skillsSection = {
     emoji("● source data through various means, including scraping the web using Python"),
     emoji("● clean and process data into a workable state."),
     emoji(
-      "● analyse and visualise the data to provide meaningful and actionable outcomes."
+      "● analyse and visualise the data to provide meaningful outcomes."
     )
   ],
 
@@ -75,7 +75,15 @@ const skillsSection = {
     {
      skillName: "Tableau",
      fontAwesomeClassname: "fas fa-signal"
-    }
+    },
+    {
+    skillName: "Node.js",
+    fontAwesomeClassname: "fab fa-node-js"
+  },
+  {
+    skillName: "React",
+    fontAwesomeClassname: "fab fa-react"
+  }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -176,7 +184,7 @@ const openSource = {
 
 const bigProjects = {
   title: "My Projects",
-  subtitle: "DATA ANALYSIS PROJECTS I HAVE UNDERTAKEN",
+  subtitle: "DATA ANALYSIS/CODING PROJECTS I HAVE UNDERTAKEN",
   projects: [
     {
       image: require("./assets/images/tempLogo.png"),
@@ -197,8 +205,8 @@ const bigProjects = {
     {
       image: require("./assets/images/tempLogo.png"),
       projectName: "Cryptocurrency Machine Learning Model",
-      projectDesc: "Used machine learning in Python to create a model which predicts the change in price of cryptocurrencies and can then trade upon it. Used SQLite to create and maintain a dastabase of multiple factors related to each cryptocurrency",
-      footerLink: [
+      projectDesc: "A cryptocurrency price-change prediction ML model based in Python, utilizing SQLite for a database",
+      footerLink:[
         {
           name: "Check out the code!",
           url: "https://github.com/bendigiorgio/crypto_machine_learning"
@@ -219,12 +227,12 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/tempLogo.png"),
-      projectName: "SQL",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Facial Recognition Account Storage",
+      projectDesc: "An in-progress mockup of a system to create accounts and login using facial recognition a password",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Check it out!",
+          url: ""
         }
       ]
     }
