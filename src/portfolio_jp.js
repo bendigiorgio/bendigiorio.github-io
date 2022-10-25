@@ -268,7 +268,7 @@ const achievementSectionJp = {
 };
 
 
-const contactInfo = {
+const contactInfoJp = {
   title: "連絡先",
   subtitle:
     "連絡して下さい!",
@@ -290,6 +290,6 @@ export {
   openSource,
   bigProjectsJp,
   achievementSectionJp,
-  contactInfo,
+  contactInfoJp,
   isHireable
 };
