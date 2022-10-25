@@ -287,6 +287,12 @@ const contactInfo = {
     "Get in touch!",
   email_address: "bendigiorgio@gmail.com"
 };
+const contactInfoJp = {
+  title: "連絡先",
+  subtitle:
+    "連絡して下さい!",
+  email_address: "bendigiorgio@gmail.com"
+};
 
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -304,5 +310,6 @@ export {
   bigProjects,
   achievementSection,
   contactInfo,
+  contactInfoJp,
   isHireable
 };

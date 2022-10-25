@@ -10,7 +10,7 @@ import {Achievement,AchievementJp} from "./achievement/Achievement";
 import Footer from "../components/footer/Footer";
 import {Education,EducationJp} from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Profile from "./profile/Profile";
+import {Profile,ProfileJp} from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -88,7 +88,7 @@ const Main = () => {
                   <Projects />,
                   <StartupProjectJp />,
                   <AchievementJp />,
-                  <Profile />,
+                  <ProfileJp />,
                   <Footer />,
                   <ScrollToTopButton />
                 </>
