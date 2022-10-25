@@ -25,7 +25,7 @@ username: "Benjamin Di Giorgio",
   title: "Benjamin Di Giorgio", 
   subTitle:
     "データの深みにすごい興味を持っているデータアナリスト",
-    resumeLink: "temp",
+    resumeLink: "/resume/BenDiGiorgioRireki.docx",
   displayGreeting: true // Set false to hide this section, defaults to true
   
 };

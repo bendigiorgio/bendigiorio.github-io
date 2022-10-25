@@ -25,7 +25,7 @@ const greeting = {
   title: "Benjamin Di Giorgio",
   subTitle:
     "A data analyst with a passion for getting to the bottom of data",
-    resumeLink: "temp",
+    resumeLink: "/resume/BenDiGiorgioResume.docx",
   displayGreeting: true // Set false to hide this section, defaults to true
   
 };
