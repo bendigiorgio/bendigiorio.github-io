@@ -110,7 +110,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Excel", //Insert stack or technology you have experience in
@@ -167,7 +167,12 @@ const workExperiences = {
       company: "Hotel Nikko Fukuoka - Japan",
       companylogo: require("./assets/images/nikkoLogo.png"),
       date: "May 2022 – Present",
-      desc: "Work as a full time contract employee"
+      desc: "Work as a full time contract employee",
+      descBullets: [
+        "Organised inventory and orders",
+        "Created nameplates for food/service",
+        "Translated Japanese Nameplates and Instructions to English"
+        ]
     }
   ]
 };
@@ -187,7 +192,7 @@ const bigProjects = {
   subtitle: "DATA ANALYSIS/CODING PROJECTS I HAVE UNDERTAKEN",
   projects: [
     {
-      image: require("./assets/images/tempLogo.png"),
+      image: require("./assets/images/marketAnalysis.jpg"),
       projectName: "Marketing Campaign Analysis",
       projectDesc: "Used Python to clean and create features for a dataset from Kaggle. Used Tableau to visualise findings and display recommendations",
       footerLink: [
@@ -203,7 +208,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tempLogo.png"),
+      image: require("./assets/images/crypto.png"),
       projectName: "Cryptocurrency Machine Learning Model",
       projectDesc: "A cryptocurrency price-change prediction ML model based in Python, utilizing SQLite for a database",
       footerLink:[
@@ -214,7 +219,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tempLogo.png"),
+      image: require("./assets/images/abLogo.png"),
       projectName: "Advertisement Analysis",
       projectDesc: "Conducted an A/B analysis for an advertisement to determine the effectiveness of an advertisement compared to its previous version",
       footerLink: [
@@ -226,9 +231,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/tempLogo.png"),
+      image: require("./assets/images/faceWeb.png"),
       projectName: "Facial Recognition Account Storage",
-      projectDesc: "An in-progress mockup of a system to create accounts and login using facial recognition a password",
+      projectDesc: "An in-progress mockup of a system to create accounts and login using facial recognition, and its implementation",
       footerLink: [
         {
           name: "Check it out!",

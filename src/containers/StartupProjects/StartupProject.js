@@ -47,9 +47,24 @@ export function StartupProject() {
 
           <div className="projects-container">
             <Swiper
-              slidesPerView={3}
+              breakpoints = {{
+                // when window width is >= 120px
+                550: {
+                  slidesPerView: 1,
+                  slidesPerGroup: 1
+                },
+                // when window width is >= 240px
+                1000: {
+                  slidesPerView: 2,
+                  slidesPerGroup: 2
+                },
+                //when window width is >= 360
+                1200: {
+                  slidesPerView: 3,
+                  slidesPerGroup: 3
+                }
+              }}
               spaceBetween={30}
-              slidesPerGroup={3}
               loop={true}
               loopFillGroupWithBlank={true}
               pagination={{
@@ -152,9 +167,25 @@ export function StartupProjectJp() {
 
           <div className="projects-container">
           <Swiper
-              slidesPerView={3}
+              breakpoints = {{
+                // when window width is >= 120px
+                550: {
+                  slidesPerView: 1,
+                  slidesPerGroup: 1
+                  
+                },
+                // when window width is >= 240px
+                1000: {
+                  slidesPerView: 2,
+                  slidesPerGroup: 2
+                },
+                //when window width is >= 360
+                1200: {
+                  slidesPerView: 3,
+                  slidesPerGroup: 3
+                }
+              }}
               spaceBetween={30}
-              slidesPerGroup={3}
               loop={true}
               loopFillGroupWithBlank={true}
               pagination={{

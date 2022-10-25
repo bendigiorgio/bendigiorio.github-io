@@ -102,7 +102,7 @@ const educationInfoJp = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Excel", //Insert stack or technology you have experience in
@@ -176,10 +176,10 @@ const openSource = {
 
 const bigProjectsJp = {
   title: "プロジェクト",
-  subtitle: "行ったデータ分析のプロジェクト",
+  subtitle: "行ったデータ分析/プログラミングのプロジェクト",
   projects: [
     {
-      image: require("./assets/images/tempLogo.png"),
+      image: require("./assets/images/marketAnalysis.jpg"),
       projectName: "マーケティングキャンペーンアナリシス",
       projectDesc: "Kaggleからのデータを使用し、Pythonでデータをクリーンし、色々計算しました。分析をし、Tableauでビジュアルを作成しました。",
       footerLink: [
@@ -195,9 +195,9 @@ const bigProjectsJp = {
       ]
     },
     {
-      image: require("./assets/images/tempLogo.png"),
-      projectName: "Cryptocurrency Machine Learning Model",
-      projectDesc: "Used machine learning in Python to create a model which predicts the change in price of cryptocurrencies and can then trade upon it. Used SQLite to create and maintain a dastabase of multiple factors related to each cryptocurrency",
+      image: require("./assets/images/crypto.png"),
+      projectName: "暗号通貨の価格を予測するモデル",
+      projectDesc: "マシーンラーニングを使用し、暗号通貨の価格を予測し、Binanceで暗号通貨を購入したり、売ったり、するモデル",
       footerLink: [
         {
           name: "コードを見る!",
@@ -206,9 +206,9 @@ const bigProjectsJp = {
       ]
     },
     {
-      image: require("./assets/images/tempLogo.png"),
+      image: require("./assets/images/abLogo.png"),
       projectName: "広告の分析",
-      projectDesc: "Conducted an A/B analysis for an advertisement to determine the effectiveness of an advertisement compared to its previous version",
+      projectDesc: "Pythonで広告の2種類の効果を比べて、レポートを書いた",
       footerLink: [
         {
           name: "もっと見る！",
@@ -218,13 +218,13 @@ const bigProjectsJp = {
       ]
     },
     {
-      image: require("./assets/images/tempLogo.png"),
-      projectName: "SQL",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/faceWeb.png"),
+      projectName: "フェイスIDログイン",
+      projectDesc: "只今組んでいるフェイスIDのAPIとウェブサイト",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "途中",
+          url: ""
         }
       ]
     }
@@ -238,7 +238,7 @@ const bigProjectsJp = {
 const achievementSectionJp = {
   title: "資格",
   subtitle:
-    "持っている資格",
+    "",
 
   achievementsCards: [
   {

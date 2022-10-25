@@ -52,7 +52,7 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 420px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1rem 1rem;
 }
 

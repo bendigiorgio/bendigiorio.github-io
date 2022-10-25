@@ -7,8 +7,8 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
-  achievementSection
+  achievementSection,
+  bigProjects
 } from "../../portfolio";
 
 
@@ -16,9 +16,9 @@ import {
 export function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
+  const viewBigProjects = bigProjects.display;
 
   return (
     <Headroom>
@@ -47,19 +47,16 @@ export function Header() {
               <a href="#experience">Work Experience</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewBigProjects && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certifications</a>
             </li>
           )}
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
           <li>
             <a href="/jp">JP(日本語)</a>
           </li>
@@ -80,9 +77,9 @@ export function Header() {
 export function HeaderJp() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
+  const viewBigProjects = bigProjects.display;
 
   return (
     <Headroom>
@@ -111,9 +108,9 @@ export function HeaderJp() {
               <a href="#experience">職務経歴</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewBigProjects && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#projects">プロジェクト</a>
             </li>
           )}
           {viewAchievement && (
@@ -121,9 +118,6 @@ export function HeaderJp() {
               <a href="#achievements">資格</a>
             </li>
           )}
-          <li>
-            <a href="#contact">連絡先</a>
-          </li>
           <li>
             <a href="/">英語(EN)</a>
           </li>
