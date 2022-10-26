@@ -25,7 +25,7 @@ const greetingJp = {
   firstName: "Benjamin",
   lastName: "Di Giorgio", 
   subTitle:
-    "データの深みにすごい興味を持っているデータアナリスト",
+    "データの深みにすごい興味を持っているデータアナリスト・プログラマー",
     resumeLink: "/resume/BenDiGiorgioRireki.docx",
   displayGreeting: true // Set false to hide this section, defaults to true
   
@@ -93,8 +93,8 @@ const educationInfoJp = {
       duration: "2018年3月 - 2023年6月",
       desc: "",
       descBullets: [
-        "大学で特にマーケティングについて本当のデータで会社の分析のプロジェクトを何回か行いました。",
-        "フランスでの留学し、リスクマネージメントやブランドマネージメントの勉強も出来ました。"
+        "大学でマーケティングについて本当のデータで会社の分析のプロジェクトを何回か行いました。",
+        "フランスで留学し、リスクマネージメントやブランドマネージメントを勉強しました。"
       ]
     }
   ]
@@ -152,6 +152,7 @@ const workExperiencesJp = {
         "在庫管理・発注担当",
             "会社で使う為や販売の為の農家さんからの野菜のスプレッドシートを作り、自動計算で共立を高めました。",
             "シフト作成",
+            "発注",
             "新しいメニューを作成し、販売できるようにウーバーイーツや出前館などのプラットフォームの設定を行い"
       ]
     },
@@ -160,7 +161,12 @@ const workExperiencesJp = {
       company: "ホテル日航福岡",
       companylogo: require("./assets/images/nikkoLogo.png"),
       date: "2022年5月 – 現在",
-      desc: "派遣社員"
+      desc: "派遣社員",
+      descBullets: [
+        "在庫管理・発注担当",
+            "在庫管理・発注",
+            "ネーム作成・英訳",
+      ]
     }
   ]
 };
