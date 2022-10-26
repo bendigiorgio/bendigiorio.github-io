@@ -25,7 +25,8 @@ export function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
+                {greeting.firstName}<br/>
+                {greeting.lastName}{" "}
               </h1>
               <p
                 className={
@@ -81,7 +82,8 @@ export function GreetingJp() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greetingJp.title}{" "}
+                {greeting.firstName}<br/>
+                {greeting.lastName}{" "}
               </h1>
               <p
                 className={

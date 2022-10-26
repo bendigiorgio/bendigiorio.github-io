@@ -22,9 +22,10 @@ const illustration = {
 
 const greeting = {
   username: "Benjamin Di Giorgio",
-  title: "Benjamin Di Giorgio",
+  firstName: "Benjamin",
+  lastName: "Di Giorgio",
   subTitle:
-    "A data analyst with a passion for getting to the bottom of data",
+    "A programmer/data analyst who loves to find interesting insights into data",
     resumeLink: "/resume/BenDiGiorgioResume.docx",
   displayGreeting: true // Set false to hide this section, defaults to true
   
@@ -47,14 +48,14 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FIND ACTIONABLE INSIGHTS FROM DATA",
   skills: [
-    emoji(
-      "● work with stakeholders to define what questions to ask"
-    ),
+    emoji("● work with stakeholders to define what questions to ask"),
     emoji("● source data through various means, including scraping the web using Python"),
     emoji("● clean and process data into a workable state."),
-    emoji(
-      "● analyse and visualise the data to provide meaningful outcomes."
-    )
+    emoji("● analyse and visualise data to provide meaningful outcomes."),
+    "",
+    emoji("● Also program for various topics I'm interested in:"),
+    emoji("◌ Machine Learning"),
+    emoji("◌ Website Development")
   ],
 
   //https://fontawesome.com/icons?d=gallery

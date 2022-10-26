@@ -21,8 +21,9 @@ const illustration = {
 };
 
 const greetingJp = {
-username: "Benjamin Di Giorgio",
-  title: "Benjamin Di Giorgio", 
+  username: "Benjamin Di Giorgio",
+  firstName: "Benjamin",
+  lastName: "Di Giorgio", 
   subTitle:
     "データの深みにすごい興味を持っているデータアナリスト",
     resumeLink: "/resume/BenDiGiorgioRireki.docx",
