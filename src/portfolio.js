@@ -8,16 +8,15 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -26,9 +25,8 @@ const greeting = {
   lastName: "Di Giorgio",
   subTitle:
     "A programmer/data analyst who loves to find interesting insights into data",
-    resumeLink: "/resume/BenDiGiorgioResume.docx",
-  displayGreeting: true // Set false to hide this section, defaults to true
-  
+  resumeLink: "/resume/BenDiGiorgioResume.pdf",
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -39,7 +37,7 @@ const socialMediaLinks = {
   gmail: "bendigiorgio@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -49,13 +47,15 @@ const skillsSection = {
   subTitle: "FIND ACTIONABLE INSIGHTS FROM DATA",
   skills: [
     emoji("● work with stakeholders to define what questions to ask"),
-    emoji("● source data through various means, including scraping the web using Python"),
+    emoji(
+      "● source data through various means, including scraping the web using Python"
+    ),
     emoji("● clean and process data into a workable state."),
     emoji("● analyse and visualise data to provide meaningful outcomes."),
     "",
     emoji("● Also program for various topics I'm interested in:"),
     emoji("◌ Machine Learning"),
-    emoji("◌ Website Development")
+    emoji("◌ Website Development"),
   ],
 
   //https://fontawesome.com/icons?d=gallery
@@ -63,30 +63,30 @@ const skillsSection = {
   softwareSkills: [
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-python",
     },
     {
       skillName: "Excel",
-      fontAwesomeClassname: "fas fa-file-excel"
+      fontAwesomeClassname: "fas fa-file-excel",
     },
     {
-     skillName: "Tableau",
-     fontAwesomeClassname: "fas fa-signal"
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-signal",
     },
     {
-    skillName: "Node.js",
-    fontAwesomeClassname: "fab fa-node-js"
-  },
-  {
-    skillName: "React",
-    fontAwesomeClassname: "fab fa-react"
-  }
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js",
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -102,10 +102,10 @@ const educationInfo = {
       desc: "",
       descBullets: [
         "With a major in marketing I have undertaken many tasks relating directly to businesses and their data",
-        "Study abroad in France with a focus on luxury brand management and risk management"
-      ]
-    }
-  ]
+        "Study abroad in France with a focus on luxury brand management and risk management",
+      ],
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -115,22 +115,22 @@ const techStack = {
   experience: [
     {
       Stack: "Excel", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Python",
-      progressPercentage: "70%"
+      progressPercentage: "70%",
     },
     {
       Stack: "Tableau",
-      progressPercentage: "60%"
+      progressPercentage: "60%",
     },
     {
       Stack: "SQL",
-      progressPercentage: "45%"
-    }
+      progressPercentage: "45%",
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -147,8 +147,8 @@ const workExperiences = {
       descBullets: [
         "Operated the register",
         "Greeted and guided customers to find clothing that they love",
-        "Operated inventory management systems, involving multiple stores across the country"
-      ]
+        "Operated inventory management systems, involving multiple stores across the country",
+      ],
     },
     {
       role: "Head Chef",
@@ -160,8 +160,8 @@ const workExperiences = {
         "Organised inventory and orders",
         "Created internal and external spreadsheets and documents for the sale of fresh produce",
         "Organised and and create shift rosters for staff",
-        "Developed new menu and set up the systems to sell products through delivery applications"
-      ]
+        "Developed new menu and set up the systems to sell products through delivery applications",
+      ],
     },
     {
       role: "Hall Staff",
@@ -172,10 +172,10 @@ const workExperiences = {
       descBullets: [
         "Organised inventory and orders",
         "Created nameplates for food/service",
-        "Translated Japanese Nameplates and Instructions to English"
-        ]
-    }
-  ]
+        "Translated Japanese Nameplates and Instructions to English",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -183,7 +183,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -195,55 +195,58 @@ const bigProjects = {
     {
       image: require("./assets/images/marketAnalysis.jpg"),
       projectName: "Marketing Campaign Analysis",
-      projectDesc: "Used Python to clean and create features for a dataset from Kaggle. Used Tableau to visualise findings and display recommendations",
+      projectDesc:
+        "Used Python to clean and create features for a dataset from Kaggle. Used Tableau to visualise findings and display recommendations",
       footerLink: [
         {
           name: "Check out the code!",
-          url: "https://github.com/bendigiorgio/Marketing_Analsysis/tree/main/Marketing_Analysis"
+          url: "https://github.com/bendigiorgio/Marketing_Analsysis/tree/main/Marketing_Analysis",
         },
         {
           name: "View visualisation",
-          url: "https://public.tableau.com/views/Marketing_Campaign_16651367845250/KMeansSegments?:language=en-US&:display_count=n&:origin=viz_share_link"
-        }
+          url: "https://public.tableau.com/shared/8K5CX2FN6?:display_count=n&:origin=viz_share_link",
+        },
         //  you can add extra buttons here.
-      ]
+      ],
     },
     {
       image: require("./assets/images/crypto.png"),
       projectName: "Cryptocurrency Machine Learning Model",
-      projectDesc: "A cryptocurrency price-change prediction ML model based in Python, utilizing SQLite for a database",
-      footerLink:[
+      projectDesc:
+        "A cryptocurrency price-change prediction ML model based in Python, utilizing SQLite for a database",
+      footerLink: [
         {
           name: "Check out the code!",
-          url: "https://github.com/bendigiorgio/crypto_machine_learning"
-        }
-      ]
+          url: "https://github.com/bendigiorgio/crypto_machine_learning",
+        },
+      ],
     },
     {
       image: require("./assets/images/abLogo.png"),
       projectName: "Advertisement Analysis",
-      projectDesc: "Conducted an A/B analysis for an advertisement to determine the effectiveness of an advertisement compared to its previous version",
+      projectDesc:
+        "Conducted an A/B analysis for an advertisement to determine the effectiveness of an advertisement compared to its previous version",
       footerLink: [
         {
           name: "Check it out!",
-          url: "https://github.com/bendigiorgio/Marketing_Analsysis/tree/main/Capstone_Project_AB"
+          url: "https://github.com/bendigiorgio/Marketing_Analsysis/tree/main/Capstone_Project_AB",
         },
-        
-      ]
+      ],
     },
     {
       image: require("./assets/images/faceWeb.png"),
       projectName: "Facial Recognition Account Storage",
-      projectDesc: "An in-progress mockup of a system to create accounts and login using facial recognition, and its implementation",
+      projectDesc:
+        "An in-progress mockup of a system to create accounts and login using facial recognition, and its implementation",
       footerLink: [
         {
           name: "Check it out!",
-          url: ""
-        }
-      ]
-    }
+          url: "",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -251,50 +254,42 @@ const bigProjects = {
 
 const achievementSection = {
   title: "Certifications",
-  subtitle:
-    "Certifications that I have achieved",
+  subtitle: "Certifications that I have achieved",
 
   achievementsCards: [
-  {
+    {
       title: "Google Data Analytics Professional Certificate",
-      subtitle:
-        "Completed Google's data analytics professional course",
+      subtitle: "Completed Google's data analytics professional course",
       image: require("./assets/images/googleProLogo.png"),
       imageAlt: "Google Data Analytics Professional",
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://www.credly.com/badges/0c9cb685-05bc-4104-931a-a6d01f1da261/"
-        }
-      ]
+          url: "https://www.credly.com/badges/0c9cb685-05bc-4104-931a-a6d01f1da261/",
+        },
+      ],
     },
     {
       title: "Japanese Language Proficiency Test (JLPT)",
-      subtitle:
-        "",
+      subtitle: "",
       image: require("./assets/images/jlptLogo.jpg"),
       imageAlt: "Japanese Language Proficeiency Test",
-      footerLink: [
-      ]
-    }
+      footerLink: [],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
-
 
 const contactInfo = {
   title: "Contact",
-  subtitle:
-    "Get in touch!",
-  email_address: "bendigiorgio@gmail.com"
+  subtitle: "Get in touch!",
+  email_address: "bendigiorgio@gmail.com",
 };
 const contactInfoJp = {
   title: "連絡先",
-  subtitle:
-    "連絡して下さい!",
-  email_address: "bendigiorgio@gmail.com"
+  subtitle: "連絡して下さい!",
+  email_address: "bendigiorgio@gmail.com",
 };
-
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -312,5 +307,5 @@ export {
   achievementSection,
   contactInfo,
   contactInfoJp,
-  isHireable
+  isHireable,
 };
