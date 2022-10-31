@@ -1,10 +1,9 @@
 {
   "homepage": "https://bendigiorgio.github-io/",
-  "name": "developerfolio",
+  "name": "bendigiorgio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tolgee/react": "^4.9.2",
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",

@@ -189,7 +189,7 @@ const bigProjectsJp = {
         },
         {
           name: "ビジュアルを見る！",
-          url: "https://public.tableau.com/views/Marketing_Campaign_16651367845250/KMeansSegments?:language=en-US&:display_count=n&:origin=viz_share_link",
+          url: "https://public.tableau.com/shared/8K5CX2FN6?:display_count=n&:origin=viz_share_link",
         },
         //  you can add extra buttons here.
       ],

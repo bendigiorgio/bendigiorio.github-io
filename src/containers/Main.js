@@ -25,8 +25,7 @@ import { BrowserRouter as Router, Routes, Route}
 import 'swiper/swiper-bundle.min.css'
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", false);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
